@@ -8,11 +8,11 @@ NOTICE: The git repo to push should only contain a Zotonic site, not the whole Z
 
 ### Configure your site
 
-    $ heroku config:add BUILDPACK_URL="https://github.com/cstar/heroku-buildpack-zotonic.git" -a YOUR_APP
+    $ heroku config:add BUILDPACK_URL="https://github.com/vmaatta/heroku-buildpack-zotonic.git" -a YOUR_APP
 
 or
     
-    $ heroku create --buildpack "https://github.com/cstar/heroku-buildpack-zotonic.git"
+    $ heroku create --buildpack "https://github.com/vmaatta/heroku-buildpack-zotonic.git"
 
 ### Configure your Zotonic site
 
